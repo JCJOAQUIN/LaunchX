@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos el Jefe</title>
+</head>
+<body>
+    <header>
+        <h1>Tacos el Jefe, desde 2022</h1>
+    </header>
+    <section>
+        <img src="./Ta con todo.png" alt="Logo tacos el jefe">
+        <h2>Menú</h2>
+        <h3>Tacos grandes</h3>
+        <p>Todos incluyen nopales y cebollas</p>
+        <ul>
+            <li>Bisteck .................$ 30.00</li>
+            <li>Chorizo .................$ 30.00</li>
+            <li>Pastor  .................$ 30.00</li>
+            <li>Chuleta .................$ 30.00</li>
+            <li>Campechano  .............$ 30.00</li>
+        </ul>
+        <br><br>
+
+        <h3>Tacos pequeños</h3>
+        <p>Con cilantro y cebolla</p>
+        <ul>
+            <li>Bisteck .................$ 15.00</li>
+            <li>Chorizo .................$ 15.00</li>
+            <li>Pastor  .................$ 15.00</li>
+            <li>Chuleta .................$ 15.00</li>
+            <li>Campechano  .............$ 15.00</li>
+        </ul>
+        <br><br>
+
+        <h3>Especiales</h3>
+        <p>Combo con refresco por $ 10.00 más</p>
+        <dl>
+            <dt><b> Labrador ................$ 40.00 </b></dt>
+            <dd>Tortilla de maíz con pollo asado</dd>
+            <dt><b> Pastor Aleman ...........$ 40.00 </b></dt>
+            <dd>Tortilla de harina con carne de res y queso</dd>
+            <dt><b> Pug .....................$ 40.00 </b></dt>
+            <dd>Tortilla de maíz con chuleta</dd>
+            <dt><b> Adoptado ................$ 40.00 </b></dt>
+            <dd>Tortilla de maíz con pastor</dd>
+        </dl>
+        <br><br>
+    </section>
+
+    <hr>
+    
+    <section>
+        <h2>Ubicaciones</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicaion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <th><a target="_blank" href="https://g.page/mestizochurreria?share">Mestizo Churrería - Pico de Orizaba</a></th>
+                <td>L-D 24H</td>
+            </tr>
+            
+            <tr>
+                <td>Sur</td>
+                <th><a target="_blank" href="https://goo.gl/maps/ym1D1CgHU3dGR6Bq7">Citibanamex ATM</a></th>
+                <td>M-D 5PM - 3AM</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <th><a target="_blank" href="https://goo.gl/maps/5LsispZSurGBCUV27">Taquería Don Chema</a></th>
+                <td>M-D 5PM - 3AM</td>
+            </tr>
+        </table>
+    </section>
+   
+    <hr>
+   
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedido aquí</h3>
+    
+        <form action="">
+            <p>¿De qué taquería quieres?</p>
+            <select name="" id="">
+                <option value="norte">Norte</option>
+                <option value="centro">Centro</option>
+                <option value="sur">Sur</option>
+            </select>
+    
+            <p>¿De qué tacos quieres?</p>
+            <input type="checkbox" id="Bisteck" value="Bisteck">
+            <label for="Bisteck">Bisteck</label>
+            <input type="number" placeholder="¿Cuántos?" id="BisteckNumber" name="BisteckNumber">
+            <br>
+    
+            <input type="checkbox" id="Chorizo" value="Chorizo">
+            <label for="Chorizo">Chorizo</label>
+            <input type="number" placeholder="¿Cuántos?" id="ChorizoNumber" name="ChorizoNumber">
+    
+            <br>
+            <input type="checkbox" id="Pastor" value="Pastor">
+            <label for="Pastor">Pastor</label>
+            <input type="number" placeholder="¿Cuántos?" id="PastorNumber" name="PastorNumber">
+    
+            <br>
+            <input type="checkbox" id="Chuleta" value="Chuleta">
+            <label for="Chuleta">Chuleta</label>
+            <input type="number" placeholder="¿Cuántos?" id="ChuletaNumber" name="ChuletaNumber">
+    
+            <br>
+            <input type="checkbox" id="Campechano" value="Campechano">
+            <label for="Campechano">Campechano</label>
+            <input type="number" placeholder="¿Cuántos?" id="CampechanoNumber" name="CampechanoNumber">
+            <br><br><br>
+    
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
+            <br><br>
+            <label for="Telefono">Telefono:</label>
+            <input type="text" id="Telefono" name="Telefono" placeholder="¿Tu Telefono?">
+            <br><br>
+            <label for="Dirección">Dirección:</label>
+            <input type="text" id="Dirección" name="Dirección" placeholder="¿A dónde lo mandamos?">
+            <br><br><br>
+    
+            <button type="submit">Enviar pedido</button>
+    
+            <br><br><br>
+    
+        </form>
+    </section>
+</body>
+</html>
